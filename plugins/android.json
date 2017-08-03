@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.thf.mobileframework.thf_base"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.thf.mobileframework.thf_base"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.thf.mobileframework.thf_base"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.thf.mobileframework.thf_base"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.thf.mobileframework.thf_base"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.thf.mobileframework.thf_base"
+        }
+    },
+    "dependent_plugins": {}
+}

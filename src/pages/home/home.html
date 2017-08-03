@@ -1,0 +1,29 @@
+<thf-header>
+  <!-- Navigation Bar with Brand Icon -->
+  <thf-navbar t-logoTotvs t-title="THF Mobile"></thf-navbar>
+</thf-header>
+
+<!-- In this tag, we can put our content and other scripts -->
+<thf-content>
+ <h3 align="center">Coffee&Code - Semáforo</h3>
+<ion-item>
+  <ion-label color="red">Led 1 VERMELHO</ion-label>
+  <ion-toggle color="red" [(ngModel)]="leds[0]" (ionChange)="updateItem()"></ion-toggle>
+</ion-item>
+<ion-item>
+  <ion-label color="yellow">Led 2 AMARELO</ion-label>
+  <ion-toggle color="yellow" [(ngModel)]="leds[1]" (ionChange)="updateItem()"></ion-toggle>
+</ion-item>
+<ion-item>
+  <ion-label color="green">Led 3 VERDE</ion-label>
+  <ion-toggle color="green" [(ngModel)]="leds[2]" (ionChange)="updateItem()"></ion-toggle>
+</ion-item>
+<ion-item>
+  <ion-label color="red">Led 4 VERMELHO</ion-label>
+  <ion-toggle color="red" [(ngModel)]="leds[3]" (ionChange)="updateItem()"></ion-toggle>
+</ion-item>
+<ion-item>
+  <ion-label color="green">Led 5 VERDE</ion-label>
+  <ion-toggle color="green" [(ngModel)]="leds[4]" (ionChange)="updateItem()"></ion-toggle>
+</ion-item>
+</thf-content>
