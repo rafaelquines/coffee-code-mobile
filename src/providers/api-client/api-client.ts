@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ApiClientProvider {
 
-  API_URL = "http://10.172.45.190:5001";
+  API_URL = "http://10.172.45.190:8084/semaforo";
 
   constructor(public http: Http) {
     // console.log('Hello ApiClientProvider Provider');

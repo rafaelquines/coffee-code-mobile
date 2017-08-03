@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.thf.mobileframework.thf_base" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>thf_mobile_template_base</name>
+    <name>coffee-code</name>
     <description>An awesome THF Mobile/Cordova app.</description>
     <author email="dev@totvs.com.br" href="https://thf.totvs.com.br/">Ionic Framework Team</author>
     <content src="index.html" />
